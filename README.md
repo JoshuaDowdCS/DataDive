@@ -1,4 +1,4 @@
-# Superpowers
+# DataDive
 
 Automated object detection dataset labeling. Type a prompt, choose an image source, and get a YOLO-labeled dataset — reviewed and uploaded — without manual annotation.
 
