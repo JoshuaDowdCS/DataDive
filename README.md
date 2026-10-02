@@ -2,6 +2,16 @@
 
 Automated object detection dataset labeling. Type a prompt, choose an image source, and get a YOLO-labeled dataset — reviewed and uploaded — without manual annotation.
 
+## Demo and recognition
+
+[Project story and demo](https://devpost.com/software/datadive-vg6kbh)
+
+**FullyHacks 2026:** Best Use of Gemini API.
+
+## Team contribution: image verification
+
+[Nate Smith](https://github.com/nathsmith-cs) built the verification pipeline for images supplied by the acquisition workflow: YOLO prediction-uncertainty checks followed by selective Gemini verification. Routing ambiguous detections for a second opinion reduces unnecessary verification requests compared with sending every image to Gemini. This is one contribution within the broader [team project](https://devpost.com/software/datadive-vg6kbh).
+
 ## How It Works
 
 1. **Acquire images** — use existing images, scrape the web (Bing, Baidu, Google, Open Images), or extract frames from YouTube videos
